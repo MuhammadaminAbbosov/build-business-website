@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background .left {
+    display: flex;
+    gap: 19px;
+
+    position: absolute;
+
+    left: 12.84px;
+    top: 150px;
+}
+
+.background .left .r-circ {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.background .left .r-circ div {
+
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: linear-gradient(338.5deg, rgba(151, 195, 249, 0.4) -83.76%, rgba(147, 193, 249, 0.4) 1360.29%);
+}
+
+.background .circle .center {
+    position: absolute;
+    top: 119px;
+    right: 471px;
+
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    background: radial-gradient(70% 70% at 70% 64.8%, rgba(1, 153, 102, 0.6) 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.background .circle .left-m {
+    position: absolute;
+    left: 1px;
+    bottom: 88px;
+    border-radius: 50%;
+
+    width: 84px;
+    height: 84px;
+    background: radial-gradient(70% 70% at 70% 64.8%, rgba(1, 153, 102, 0.6) 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.background .circle .center-m {
+    position: absolute;
+    bottom: 187px;
+    left: 679px;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background: radial-gradient(70% 70% at 70% 64.8%, rgba(1, 153, 102, 0.6) 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.t-r {
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+    border-radius: 50%;
+    background: radial-gradient(70% 70% at 70% 64.8%, rgba(1, 153, 102, 0.6) 0%, rgba(255, 255, 255, 0.5) 100%);
+    width: 125px;
+    height: 125px;
+}
+
+.background .back-big {
+    position: absolute;
+    right: -139px;
+    top: -190px;
+    width: 600.95px;
+    height: 700.44px;
+    background: linear-gradient(180deg, rgba(1, 153, 102, 0.7) 0%, rgba(9, 80, 115, 0) 100%);
+    border-radius: 0px 0px 59px 100px;
+    transform: rotate(26.32deg);
+}
+
+.background p {
+    position: absolute;
+    bottom: -375px;
+    left: 70px;
+    z-index: -2;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 66px;
+    letter-spacing: 0.13em;
+
+    color: #F7F9FC;
+    text-align: center;
+}
+
+
+header {
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 0 100px;
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+}
+
+header nav a {
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+
+.search {
+    position: absolute;
+    z-index: 99;
+    top: 64px;
+    right: 120px;
+}
+
+header input {
+    position: relative;
+    width: 230px;
+    height: 40px;
+    padding-left: 26px;
+    border-radius: 100px;
+    border: 1px solid #FFFFFF;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+header input:focus {
+    outline: none;
+}
+
+header input::placeholder {
+    color: #E0E0E0;
+}
+
+main {
+    margin-top: 50px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .text h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    color: #095073;
+    margin-bottom: 30px;
+}
+
+main .text p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 50px;
+}
+
+main .text a {
+    text-decoration: none;
+    padding: 18px 75px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    background: linear-gradient(92.42deg, #079258 0%, #1E4C6E 100%);
+    box-shadow: 0px 10px 35px rgba(9, 80, 115, 0.3);
+    border-radius: 0px 30px;
+}
+
+.text a:hover {
+    background: linear-gradient(92.42deg, #1E4C6E 0%, #079258 100%);
+    box-shadow: 0px 10px 35px rgba(9, 80, 115, 0.3);
+    border-radius: 30px 0px;
+}
+
+main img {
+    width: 400px;
+}
+
+header nav a:hover {
+    color: #079258;
+}
+
